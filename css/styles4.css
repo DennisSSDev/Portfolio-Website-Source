@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+ html {
+   font-family: 'Nunito', serif;
+  }
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+#nav_bar{
+  z-index: 5;
+}
+
+h4{
+  font-size: 25px;
+}
+.linkedin, .github, .twitter{
+  margin-top: 30px;
+}
+#logo-container{
+  margin-left: 15px;
+}
+.link{
+  font-weight: bold;
+  -webkit-text-fill-color: #e65100;
+}
+p {
+  line-height: 2rem;
+}
+
+#resume-button{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#logoTwit{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 12px;
+  margin-right: 5px;
+  margin-left: 15px;
+}
+#logoGit{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 12px;
+}
+.logo:hover{
+  background-color: black;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+}
+
+
+@media only screen and (max-width : 1250px){
+  .linkers{
+    font-size: 13px;
+    white-space: nowrap;
+  }
+}
+
+
+@media only screen and (max-width : 992px) {
+
+  #nav-mobile li a{
+    text-align: center;
+    padding-top: 1px;
+    font-size: 14px;
+  }
+  #logo-container{
+    font-size: 30px;
+    padding-right: 15px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .linkers{
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  #logoTwit{
+    visibility: hidden;
+  }
+  #logoGit{
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width : 600px) {
+  h3{
+    text-align: center;
+  }
+  h4{
+    white-space: nowrap;
+    font-size: 20px;
+  }
+  h2{
+    font-size: 35px;
+  }
+  .row h1{
+    font-size: 50px;
+  }
+  #index-banner .section {
+    top: 0;
+  }
+  #resume-button{
+    margin: 0 auto;
+  }
+  #logo-container{
+    font-size: 20px;
+    padding-right: 15px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+  }
+  #index-banner{
+    min-height: 500px;
+  }
+  
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}

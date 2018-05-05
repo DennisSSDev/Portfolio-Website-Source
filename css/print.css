@@ -1,0 +1,26 @@
+@media print{
+    nav{
+        display: none;
+        visibility: hidden;
+    }
+    footer{
+        display: none;
+    }
+    .parallax, .linkedin, .github, .twitter {
+        display: none;
+    }
+    #nav-mobile{
+        display: none;
+    }
+    .card-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .btn-large{
+        display: none;
+    }
+    a{
+        display: none;
+    }
+}

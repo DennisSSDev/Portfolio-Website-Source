@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Slavinsky - Projects</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen"/>
+  <link href="css/styles2.css" type="text/css" rel="stylesheet" media="screen"/>
+</head>
+<body class="orange darken-2 white-text">
+  <nav class="orange darken-3 z-depth-3 pinned" id="nav_bar">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo white-text">Dennis Slavinsky</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="projects.html" class="white-text">Projects</a></li>
+        <li><a href="resume.html" class="white-text">Resume</a></li>
+        <li><a href="contact.html" class="white-text">Contact</a></li>
+        <li><a href="notes.html" class="white-text">Notes</a></li>
+      </ul>
+      <a href="https://twitter.com/SSStudioDennis" class="right"><img  src="img/twitter-icon.png" alt="logoTwit" class="circle responsive-img logo" id="logoTwit"></a>
+      <a href="http://www.github.com/DennisSSDev" class="right"><img  src="img/githubLogo.png" alt="logoGit" class="circle responsive-img logo" id="logoGit"></a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div> 
+  </nav>
+  <ul id="nav-mobile" class="side-nav orange darken-4">
+      <li><a href="index.html" class="white-text">Home</a></li>
+      <li><a href="projects.html" class="white-text">Projects</a></li>
+      <li><a href="resume.html" class="white-text">Resume</a></li>
+      <li><a href="contact.html" class="white-text">Contact</a></li>
+      <li><a href="notes.html" class="white-text">Notes</a></li>
+  </ul>
+  <!-- Work on this part, Don't touch the top -->
+  <div class="container" id="proj_List">
+    <div class="section">
+      <div class="row">
+          <h2 class="white-text center-align"><br>Projects</h2>
+        <div class="col s12 m4">
+            <div class="card hoverable">
+              <div class="card-image waves-effect waves-block waves-light">           
+              <img class="activator" src="videos/ue4.gif" alt="Proj1_Image">
+              </div>
+              <div class="card-content z-depth-4">
+                <span class="card-title activator grey-text text-darken-4">Unreal Engine Games<i class="material-icons right">more_vert</i></span>
+                <p><a href="#modal1" data-target="modal1" class="modal-trigger link">Indepth Breakdown</a></p>
+                <p id="pGit_1"><a href="contact.html" class="link">Request files/Extra info</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Unreal Engine Games<i class="material-icons right">close</i></span>
+                <p class="black-text">These are projects were I took the roles of the lead supervisor, QA tester, support engineer. At the same time, I instructed the lead 
+                  developers on how to use visual scripting and helped them debug C++ code.
+                </p>
+              </div>
+            </div>
+        </div>
+        <div id="modal1" class="modal">
+          <div class="modal-content black-text">
+            <!--replace this with a youtube link -->
+            <h4>Demo Reel</h4>
+              <div class="video-container">             
+                <iframe src="https://www.youtube.com/embed/eY7f2oayGbg" allowfullscreen></iframe>
+              </div>
+              <br>
+              <h4>Development Process</h4>
+              <img src="ue4_proj/tracer.jpg" alt="tracer_code" class="left responsive-img modal_img">
+              <img src="ue4_proj/vis_script.jpg" alt="animation_code" class="right responsive-img modal_img">
+              <p>
+                For the majority of the projects we would use visual scripting that is built into Unreal Engine, as it was a convinient way for both artists and
+                computer science developers to get their foot in the door of game development. I made sure that they got all the basic concept of coding, 
+                but also I got the chance to teach them a couple of data structrures like Lists, Graphs and doubly linked list. These data structures were applied in C++.  
+              </p>
+              <h4> Creative Design </h4>
+              <img src="ue4_proj/lvl.jpg" alt="in editor image" class="responsive-img modal_img">
+              <p>
+                On the side I taught developers how to make good level design and utilize the concepts of immersion. The levels ranged from 2D side-scroller games, to 3D Dungeon Crawlers.
+                We utilized Photoshop and Maya 3D a lot for prop development and animation. I helped students grasp the principles of modeling and creating normal maps for creating illusions of High Poly.
+              </p>        
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+          </div>
+        </div>
+        <div class="col s12 m4 ">
+          <div class="card hoverable" id="tool_p">
+            <div class="card-image waves-effect waves-block waves-light">          
+            <img class="activator" src="videos/tool.gif" alt="Proj2_Image">  
+            </div>
+            <div class="card-content z-depth-4">
+              <span class="card-title activator grey-text text-darken-4">Optimized Procedural Tool<i class="material-icons right">more_vert</i></span>
+              <p><a href="#modal2" data-target="modal2" class="modal-trigger link">Indepth Breakdown</a></p>
+              <p id="pGit_2"><a href="https://github.com/DennisSSDev/Cre8-A-Thon-Submission" class="link">Github</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Optimized Procedural Tool<i class="material-icons right">close</i></span>
+              <p class="black-text">My solo submission for the RIT Cre8-a-Thon which won the Best in Graphics award. It is an optimized in-editor procedual landmass
+                generator that uses a Perlin Algorithm for realistic biome generation. The tool utlizes Unity's built in API together with Nvidia's HLSL for low tris count.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="modal2" class="modal">
+          <div class="modal-content black-text">
+          <h4>The Algorithm</h4>
+          <img src="tool_proj/tool_1.jpg" alt="Perlin_2d" class="responsive-img modal_img">
+          <p>At the core of the project I utilize the built in Perlin function that is being adjusted by a couple of parameters like octaves and lacunarity that distribute the noise 
+            to look more natural. On the image above you can see how I project the algorithm's graphical output to a 2D image plane.
+          </p>
+          <br>
+          <h4>Options</h4>
+          <img src="tool_proj/tool_2.jpg" alt="Options_View" class="responsive-img modal_img">
+          <p>The plug-in was optimized in a way that you could apply the algorithm to any 3D primitive object and the output would still result in a realistic landscape around the object.
+            So if you ever wanted to create a sphere with landscape, this is would be the plug-in for you.
+          </p>
+          <h4>Optimization</h4>
+          <img src="tool_proj/tool_3.jpg" alt="3D_View" class="responsive-img modal_img">
+          <p>The plug-in has 3 methods of generating terrain: 2D with no colors applied, 2D with colors, and 3D landmass projection. The 3D mode has
+            specific options that would allow you to specify the amount of triangles you want the land to have, thus allowing the user to save extra memory and processing power.
+            Together with Nvidia's HLSL Graphics, I've been able to decrease the amount of necessary triangles and add a special style to the terrain that, again,
+            could be adjusted in the editor easily.
+          </p>
+          <h4>Menu Bar</h4>
+          <img src="tool_proj/tool_4.jpg" alt="Menu View" class="responsive-img modal_img">
+          <p>Witht the help of the menu the user can easily switch any settings of the plug-in that
+            would suit any types of terrain. You can also switch the biomes around and mix and mash between them to see what works best for you. 
+          </p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card hoverable" id="serv_p">
+            <div class="card-image waves-effect waves-block waves-light">           
+            <img class="activator" src="net_proj/multiplayer.jpg" alt="Proj3_Image">
+            </div>
+            <div class="card-content z-depth-4">
+              <span class="card-title activator grey-text text-darken-4">Multiplayer Arena Server<i class="material-icons right">more_vert</i></span>
+              <p><a href="#modal3" data-target="modal3" class="modal-trigger link">Indepth Breakdown</a></p>
+              <p id="pGit_3"><a href="https://github.com/DennisSSDev/Multiplayer_Arena" class="link">Github</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Multiplayer Arena Server<i class="material-icons right">close</i></span>
+              <p class="black-text">For this Project I held the role of the Network and Movement programmer. I worked on a Unity server and the movements for a group project that is a 2.5D fighting game that incorporates mechanics from LittleBigPlanet
+                and lets players utilize the environment to their advantage.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="modal3" class="modal">
+        <div class="modal-content black-text">
+        <h4>How the server communicates</h4>
+        <img src="net_proj/Network1.jpg" alt="Server_Code" class="left responsive-img modal_img">
+        <img src="net_proj/Network2.jpg" alt="Client_Code" class="right responsive-img modal_img">
+        <p>I utilized Unity's low level Network API to establish the connection between the user and the server. Currently, the way it works is when the server is online it will be searching for any incoming packages that
+          include a ConnectEvent. In the case of that happening the server will start sending information to all the users currently connected regarding the newly connected member and will update the total 
+          list of players in the level. After the established connection the server will try to ask for player locations and if the player replies back it will update the location of that player to the rest of the party.
+          Ofcourse, since the messages for the locations are going to go through the unreliable channel, occasionally there could be a lag spike, but it is not as important as the rest of the information, that goes
+          through the reliable channel. Currently the server itself doesn't lerp player locations, but it uses the Unity's built in mechanic for lerping player locations over multiplayer. After the player disconnects from the level
+          the server will remove him from the list, but will leave a binary file regarding the player's previous connection. 
+        </p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col s12 m4">
+            <div class="card hoverable" id="game_p">
+              <div class="card-image waves-effect waves-block waves-light">
+              
+              <img class="activator" src="foster_proj/fost_title.jpg" alt="Proj4_Image">
+    
+              </div>
+              <div class="card-content z-depth-4">
+                <span class="card-title activator grey-text text-darken-4">Foster's Reboot<i class="material-icons right">more_vert</i></span>
+                <p><a href="#modal4" data-target="modal4" class="modal-trigger link">Indepth Breakdown</a></p>
+                <p id="pGit_4"><a href="https://github.com/DennisSSDev/Fosters_Imaginary_Friends_Reimagined" class="link">Github</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Foster's Reboot<i class="material-icons right">close</i></span>
+                <p class="black-text">This is a personal Unity project where I tried to revive the old school Cartoon Network Show: Foster's imaginary Friends. 
+                  I programmed an arcade pizza shooting game with my own collision detection and resolution, vector movements and enemies. It also has a multiplayer mode for maximum 
+                  competition. </p>
+              </div>
+            </div>
+          </div>
+          <div id="modal4" class="modal">
+            <div class="modal-content black-text">
+            <h4>The Gameplay</h4>
+            <img src="foster_proj/gameplay.jpg" alt="game_play" class="left responsive-img modal_img">
+            <img src="foster_proj/menu.jpg" alt="menu" class="right responsive-img modal_img">
+            <p>The game is similar to how Geometry Wars works where the player will be constantly attacked by projectiles from around the level. Since the projectiles wrap around the 
+              level and they spawn 2 child projectiles that fly even faster, the player should be very careful in how he manuevers the area around and should think which projectile should he 
+              destroy next. There is also a multiplayer mode where both players compete between each other for how many projectiles they destroyed, but also bumping each other into asteroids 
+              to win some time.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <div class="col s12 m4 middle">
+            <div class="card hoverable">
+              <div class="card-image waves-effect waves-block waves-light">            
+              <img class="activator" src="hack_proj/menu.jpg" alt="Proj5_Image"> 
+              </div>
+              <div class="card-content z-depth-4">
+                <span class="card-title activator grey-text text-darken-4">Hackerman<i class="material-icons right">more_vert</i></span>
+                <p><a href="#modal5" data-target="modal5" class="modal-trigger link">Indepth Breakdown</a></p>
+                <p id="pGit_5" ><a href="https://github.com/DennisSSDev/Hackerman-Game" class="link">Github</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Hackerman<i class="material-icons right">close</i></span>
+                <p class="black-text">This was a group project were I was the lead gameplay programmer. I worked on the level editor tool that allowed the user to place blocks.
+                  I added Dijkstra's pathfinding algorithm to the enemies for avoiding obstacles. Also, I've built the main loop that drives the gameplay, where the player has to 
+                  stage off the bugs by shooting them and reaching the highest score. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="modal5" class="modal">
+            <div class="modal-content black-text">
+            <h4>Game design</h4>
+            <img src="hack_proj/bugs.jpg" alt="game_play" class="responsive-img modal_img">
+            <p>This was my first game where I tried to implement Dijkstra's pathfinding algorithm. Due to the theme of computer bugs, it was a legidimate attempt to add the bugs a way to constantly 
+              be able to catch yup to the player, avoid all block that the player could put with the level editor. But at the same time, I gave the player many ways to stage off the attacks with
+              high gun fire rate and power ups, which included a large scale explosion and health pick up drops, though the pick up will actually avoid the player once his health will drop to 1 point.
+              </p>
+              <br>
+              <h4>Level Editor</h4>
+              <img src="hack_proj/editor.jpg" alt="game_play" class="responsive-img modal_img">              
+              <p>I built the editor as it was a great way to stress test how Dijkstra's algorithm would perform with thousads of enemies on screen. It also allowed the player to be creative in what
+                kind of level he wanted to play, whether it would be an open space location or a buolding with narrow hallways. Then editor also has a built-in mechanic that will save the player's level data,
+                so that the players could share their levels.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <div class="col s12 m4 ">
+            <div class="card hoverable" id="3d_mod">
+              <div class="card-image waves-effect waves-block waves-light">         
+              <img class="activator" src="3d_proj/droid.jpg" alt="Proj6_Image"> 
+              </div>
+              <div class="card-content z-depth-4">
+                <span class="card-title activator grey-text text-darken-4">3D Models<i class="material-icons right">more_vert</i></span>
+                <p><a href="#modal6" data-target="modal6" class="modal-trigger link">Indepth Breakdown</a></p>
+                <p id="pGit_6"><a href="https://denniseslavinsky.carbonmade.com/" class="link">Carbonmade</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">3D Models<i class="material-icons right">close</i></span>
+                <p class="black-text">These are my 3D models and the majority of them are character designs, which I made using Maya
+                  and Photoshop. I utilized modeling techniques from former Blizzard artists and designed shaders for realistic rendering. I also used reference images from third party content creators. Credit given in the indepth breakdown.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="modal6" class="modal">
+            <div class="modal-content black-text">
+            <h4>Star Wars Battle Droid</h4>
+            <img src="3d_proj/droid_small.jpg" alt="droid front" class="left responsive-img modal_img">
+            <img src="3d_proj/droid_small2.jpg" alt="droid front" class="right responsive-img modal_img">
+            <p>Initially I worked on this model as a preparation for teaching a 3D modeling class. As I continued to add more detail 
+              I realized that the model looks very authentic and it would be great if I could finish it. As a result I made a super battle droid that is 
+              completely 3D print friendly and could also be used as an in-game-engine character due to the low poly count. I used <i>PigArt's</i> reference 
+              video to create this model.
+            </p>
+            <br>
+            <h4>Gengar from Pokemon</h4>
+            <img src="3d_proj/gangar_front.jpg" alt="droid front" class="left responsive-img modal_img">
+            <img src="3d_proj/gangar_side.jpg" alt="droid front" class="right responsive-img modal_img">
+            <p>The Gengar model was created as a request from a fellow student from RIT for an interactive media project in Unity. It is a high poly model that has presets for 
+              animation and rigging. In the latest edits I added teeth and eye shaders to make the model look more similar to the reference creature from the 
+              Pokemon games.  
+            </p>
+            <br>
+            <h4>Cartoon Characters</h4>
+            <img src="3d_proj/mous_front.jpg" alt="droid front" class="left responsive-img modal_img">
+            <img src="3d_proj/cat_front.jpg" alt="droid front" class="right responsive-img modal_img">
+            <p>The Cat and Mouse Models were used by me to parody the old school <i>Tom and Jerry</i> show and in the end I distributed these models to the 
+              RIT GDD uperclassmen for their capstone project. These models are very well optimized for both high poly and low poly modes. The reference images
+              were provided by <i>EDGE-CGI</i>.
+            </p>
+            <br>
+            <h5>These models are open sourced. Click on the download package button if you want to ge the maya files!</h5>
+            </div>
+            <div class="modal-footer">
+              <a href="3d_proj/Character_Package_3D.zip" class="modal-action waves-effect waves-green btn-flat">Download Package</a>
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">      
+      </div>
+    </div>
+    <div class="parallax"><img src="img/Town.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+  <footer class="page-footer orange darken-2 center">
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <b class="brown-text text-darken-2 ">Dennis Slavinsky</b> With the help of <b class="brown-text text-darken-2">
+        Materialize</b>
+      </div>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/openModel.js"></script>
+
+  </body>
+</html>

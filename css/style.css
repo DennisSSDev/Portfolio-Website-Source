@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+
+/*This style sheet is utlilized by both index.html and notes.html*/
+
+
+ html {
+   font-family: 'Nunito', serif;
+  }
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+#nav_bar{
+  z-index: 20;
+}
+#test {
+  background-color: black;
+}
+#logo-container{
+  margin-left: 15px;
+}
+.indicator-item{
+  background-color: orange;
+}
+#statement{
+  font-size: larger;
+}
+#mis_box{
+  padding-top: 28px;
+}
+body{
+  overflow-x: hidden;
+}
+
+p {
+  line-height: 2rem;
+}
+#acc_s{
+  padding-left: 200px;
+}
+.acc_s_icon{
+  padding-top: 10px;
+}
+#cowboi{
+    
+    background-image: url(backgroundIMG2.jpg);
+    padding: 40px 0;
+    color: #fff;
+}
+#cool_scroll{
+  background-color: #d66204;
+}
+.button-collapse {
+  color: #26a69a;
+}
+#index-banner{
+  min-height: 600px;
+}
+#first_words{
+  padding-top: 150px;
+}
+.justifyText{
+  text-align: justify;
+}
+
+
+#mission{
+  margin-right: 325px;
+  margin-bottom: 25px;
+  
+}
+#resume-button{
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+
+#options{
+  margin-bottom: 20px;
+}
+#logoTwit{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 12px;
+  margin-right: 5px;
+  margin-left: 15px;
+}
+#logoGit{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 12px;
+}
+.logo:hover{
+  background-color: black;
+}
+#first_words{
+    padding-top: 400px;
+  }
+
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+  #lastW{
+    font-size: larger;
+  }
+  .slide_1{
+    font-weight: bold;
+  }
+
+  .FlexCenter{
+    display: flex;
+    align-items: center;
+  }
+@media only screen and (min-height: 700px){
+  #index-banner{
+    min-height: 750px;
+  }
+  
+
+}
+
+@media only screen and (min-width: 1200px){
+  #index-banner{
+    min-height: 1000px;
+  }
+  
+
+}
+
+
+
+@media only screen and (max-width : 992px) {
+  #nav-mobile li a{
+    text-align: center;
+    padding-top: 1px;
+    font-size: 18px;
+  }
+  #first_words{
+    padding-top: 250px;
+  }
+  #logo-container{
+    font-size: 30px;
+    padding-right: 15px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .pulse{
+    transition-duration: 0;
+
+  }
+  #acc_s{
+  padding-left: 0px;
+}
+.acc_s_icon{
+  padding-top: 10px;
+}
+  
+
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  #logoTwit{
+    visibility: hidden;
+  }
+  #logoGit{
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #first_parallax {
+    min-width: 200px;
+    min-height: 600px;
+    height: auto; 
+    width: auto;
+  }
+  .slider h3{
+    font-size: 23px;
+  }
+  .slider h5{
+    font-size: 17px;
+  }
+ 
+  
+  h1{
+    font-size: 40px;
+  }
+  .row h1{
+    font-size: 50px;
+  }
+  #index-banner .section {
+    top: 0;
+  }
+  #resume-button{
+    margin: 0;
+  }
+  #mis_box {
+    text-align: center;
+  }
+  #first_words{
+    padding-top: 140px;
+  }
+  #logo-container{
+    font-size: 20px;
+    padding-right: 15px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+
+  }
+  #index-banner{
+    min-height: 500px;
+  }
+  #face{
+    height: 60%;
+    width: 60%;
+    display: flex;
+    flex-flow: row;
+  }
+  .FlexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #mission{
+    margin: 0 auto;
+    
+  }
+  h2{
+    font-size: 28px;
+    white-space: nowrap;
+  }
+  #statement{
+    text-align: justify;
+  }
+  #links_{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 10;
+  }
+  
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}

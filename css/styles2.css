@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+ html {
+   font-family: 'Nunito', serif;
+  }
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+#nav_bar{
+  z-index: 5;
+}
+iframe{
+  width: 800px;
+  height: 500px;
+  border: 0px;
+}
+#logo-container{
+  margin-left: 15px;
+}
+.link{
+  font-weight: bold;
+  -webkit-text-fill-color: #e65100;
+}
+p {
+  line-height: 2rem;
+}
+#index-banner{
+  min-height: 850px;
+}
+#logoTwit{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 12px;
+  margin-right: 5px;
+  margin-left: 15px;
+}
+#logoGit{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  top: 12px;
+}
+.logo:hover{
+  background-color: black;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+.modal_img{
+  width: 50%;
+  height: 50%;
+}
+@media only screen and (max-width : 992px) {
+  #nav-mobile li a{
+    text-align: center;
+    padding-top: 1px;
+    font-size: 18px;
+  }
+  #logo-container{
+    font-size: 30px;
+    padding-right: 15px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  #logoTwit{
+    visibility: hidden;
+  }
+  #logoGit{
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width : 600px) {
+  #first_parallax {
+    min-width: 200px;
+    min-height: 500px;
+    height: auto; 
+    width: auto;
+  }
+  h2{
+    font-size: 35px;
+  }
+  .row h1{
+    font-size: 50px;
+  }
+  #index-banner .section {
+    top: 0;
+  }
+  #resume-button{
+    margin: 0 auto;
+  }
+  #mis_box {
+    text-align: center;
+  }
+  #first_words{
+    padding-top: 120px;
+  }
+  #logo-container{
+    font-size: 20px;
+    padding-right: 15px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+  }
+  #index-banner{
+    min-height: 500px;
+  }
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
