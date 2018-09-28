@@ -5,83 +5,100 @@
 /*This style sheet is utlilized by both index.html and notes.html*/
 
 
- html {
-   font-family: 'Nunito', serif;
-  }
+html {
+  font-family: 'Nunito', serif;
+}
 
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
-#nav_bar{
+
+#nav_bar {
   z-index: 20;
 }
+
 #test {
   background-color: black;
 }
-#logo-container{
+
+#logo-container {
   margin-left: 15px;
 }
-.indicator-item{
+
+.indicator-item {
   background-color: orange;
 }
-#statement{
+
+#statement {
   font-size: larger;
+  text-align: left;
+  font-size: 22px;
 }
-#mis_box{
+
+#mis_box {
   padding-top: 28px;
 }
-body{
+
+body {
   overflow-x: hidden;
 }
 
 p {
   line-height: 2rem;
 }
-#acc_s{
+
+#acc_s {
   padding-left: 200px;
 }
-.acc_s_icon{
+
+.acc_s_icon {
   padding-top: 10px;
 }
-#cowboi{
-    
-    background-image: url(backgroundIMG2.jpg);
-    padding: 40px 0;
-    color: #fff;
+
+#cowboi {
+  padding: 40px 0;
+  color: #fff;
 }
-#cool_scroll{
+
+#cool_scroll {
   background-color: #d66204;
 }
+
 .button-collapse {
   color: #26a69a;
 }
-#index-banner{
+
+#index-banner {
   min-height: 600px;
 }
-#first_words{
-  padding-top: 150px;
+
+#f-text {
+  border-radius: 35px;
 }
-.justifyText{
+
+.justifyText {
   text-align: justify;
 }
 
 
-#mission{
+#mission {
   margin-right: 325px;
   margin-bottom: 25px;
-  
-}
-#resume-button{
-  margin-left: 50px;
-  margin-right: 50px;
-  
+
 }
 
-#options{
+#resume-button {
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+#options {
   margin-bottom: 20px;
 }
-#logoTwit{
+
+#logoTwit {
   width: 35px;
   height: 35px;
   position: relative;
@@ -89,98 +106,112 @@ p {
   margin-right: 5px;
   margin-left: 15px;
 }
-#logoGit{
+
+#logoGit {
   width: 35px;
   height: 35px;
   position: relative;
   top: 12px;
 }
-.logo:hover{
+
+.logo:hover {
   background-color: black;
 }
-#first_words{
-    padding-top: 400px;
-  }
+
+#first_words {
+  padding-top: 330px;
+}
 
 
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
 
-  #lastW{
-    font-size: larger;
-  }
-  .slide_1{
-    font-weight: bold;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 
-  .FlexCenter{
-    display: flex;
-    align-items: center;
-  }
-@media only screen and (min-height: 700px){
-  #index-banner{
+#lastW {
+  font-size: larger;
+}
+
+.slide_1 {
+  font-weight: bold;
+}
+
+.FlexCenter {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-height: 700px) {
+  #index-banner {
     min-height: 750px;
   }
-  
+
 
 }
 
-@media only screen and (min-width: 1200px){
-  #index-banner{
+@media only screen and (min-width: 1200px) {
+  #index-banner {
     min-height: 1000px;
   }
-  
+
 
 }
 
 
 
 @media only screen and (max-width : 992px) {
-  #nav-mobile li a{
+  #nav-mobile li a {
     text-align: center;
     padding-top: 1px;
     font-size: 18px;
   }
-  #first_words{
+
+  #first_words {
     padding-top: 250px;
   }
-  #logo-container{
+
+  #logo-container {
     font-size: 30px;
     padding-right: 15px;
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
   }
-  .pulse{
+
+  .pulse {
     transition-duration: 0;
 
   }
-  #acc_s{
-  padding-left: 0px;
-}
-.acc_s_icon{
-  padding-top: 10px;
-}
-  
+
+  #acc_s {
+    padding-left: 0px;
+  }
+
+  .acc_s_icon {
+    padding-top: 10px;
+  }
+
 
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
-  #logoTwit{
+
+  #logoTwit {
     visibility: hidden;
   }
-  #logoGit{
+
+  #logoGit {
     visibility: hidden;
   }
 }
@@ -189,36 +220,44 @@ p {
   #first_parallax {
     min-width: 200px;
     min-height: 600px;
-    height: auto; 
+    height: auto;
     width: auto;
   }
-  .slider h3{
+
+  .slider h3 {
     font-size: 23px;
   }
-  .slider h5{
+
+  .slider h5 {
     font-size: 17px;
   }
- 
-  
-  h1{
+
+
+  h1 {
     font-size: 40px;
   }
-  .row h1{
+
+  .row h1 {
     font-size: 50px;
   }
+
   #index-banner .section {
     top: 0;
   }
-  #resume-button{
+
+  #resume-button {
     margin: 0;
   }
+
   #mis_box {
     text-align: center;
   }
-  #first_words{
+
+  #first_words {
     padding-top: 140px;
   }
-  #logo-container{
+
+  #logo-container {
     font-size: 20px;
     padding-right: 15px;
     font-weight: bold;
@@ -226,42 +265,50 @@ p {
     white-space: nowrap;
 
   }
-  #index-banner{
+
+  #index-banner {
     min-height: 500px;
   }
-  #face{
+
+  #face {
     height: 60%;
     width: 60%;
     display: flex;
     flex-flow: row;
   }
-  .FlexCenter{
+
+  .FlexCenter {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  #mission{
+
+  #mission {
     margin: 0 auto;
-    
+
   }
-  h2{
+
+  h2 {
     font-size: 28px;
     white-space: nowrap;
   }
-  #statement{
+
+  #statement {
     text-align: justify;
   }
-  #links_{
+
+  #links_ {
     display: flex;
     flex-direction: column;
     flex-shrink: 10;
   }
-  
+
 }
 
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
