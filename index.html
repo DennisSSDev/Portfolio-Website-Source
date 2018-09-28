@@ -1,95 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dennis Home Page</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>Slavinsky - Home</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen"/>
 </head>
-<body>
-    <main id = "main">
-        <header id = "intro">
-            <img src="gameDev.png" alt="my icon">
-            <h2>Dennis Slavinsky</h2>
-            
-            <h3>Interactive Media Programmer <br>dxs4043@rit.edu | 617-800-7164</h3> 
-            
-        </header>
-        <div id="my_face">
-            <img src="s_Dennis.jpg" alt="Dennis's Profile Picture">
+<body class="orange darken-2 white-text">
+  <nav class="orange darken-3 z-depth-3 pinned" id="nav_bar">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo white-text">Dennis Slavinsky</a>    
+      <ul class="right hide-on-med-and-down">
+        <li><a href="projects.html" class="white-text">Projects</a></li>
+        <li><a href="resume.html" class="white-text">Resume</a></li>
+        <li><a href="contact.html" class="white-text">Contact</a></li>
+        <li><a href="notes.html" class="white-text">Notes</a></li>
+      </ul>
+      <a href="https://twitter.com/SSStudioDennis" class="right"><img  src="img/twitter-icon.png" alt="logoTwit" class="circle responsive-img logo" id="logoTwit"></a>
+      <a href="http://www.github.com/DennisSSDev" class="right"><img  src="img/githubLogo.png" alt="logoGit" class="circle responsive-img logo" id="logoGit"></a>     
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <ul id="nav-mobile" class="side-nav right orange darken-4">
+      <li><a href="index.html" class="white-text">Home</a></li>
+      <li><a href="projects.html" class="white-text">Projects</a></li>
+      <li><a href="resume.html" class="white-text">Resume</a></li>
+      <li><a href="contact.html" class="white-text">Contact</a></li>
+      <li><a href="notes.html" class="white-text">Notes</a></li>
+  </ul>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <br>
+      <br>
+      <div class="container" id="first_words">
+        <h1 class="center-align text-lighten-2">Hi I make Video Games</h1>
+        <div class="center">
+        <a href="#mis_box" class="scroll"><h4 class="white-text btn-large btn-floating pulse waves-effect orange darken-4"><i class="large material-icons">keyboard_arrow_down</i></h4></a>
         </div>
-
-        <article id="exercises">
-            <h3>Exercises </h3>
-            <nav>
-                <ul class = "left">
-                    <li id="one"><a href="week1/cremebrulee.html"> Week 1: Basic HTML Markup</a> </li><!-- start of list -->
-                    
-                    <li id="two"> <a href="week2/cremebrulee.html"> Week 2: Advanced HTML Markup</a> </li>
-                    
-                    <li id="three"><a href="week2/layout.html"> CSS Positioning </a></li>
-
-                    <li id="four"> Week 3: .htaccess </li>
-
-                    <li id="five"> Week 4: Design Process </li>
-
-                    <li id="six"><a href="week5/index.html"> Week 5: Print CSS </a></li>
-
-                    <li id="sev"><a href="week5/responsive-exercise/darth.html">Responsive CSS</a></li>
-
-                    <li id="eight"><a href="week6/index.html">Week 6: Forms </a></li>
-                    
-                    <li id="nine"><a href="week6/Holy_Grail">Holy Grail with Flexbox</a></li>
-
-                    <li id="ten"> <a href="week7"> Week 7: Frameworks </a> </li>
-                   
-                </ul>
-                <ul class = "right">
-                    <li id="elev"> <a href="week7a"> Week 8: CSS Animation</a> </li>
-
-                    <li id="twel"><a href="week8b/svgdemo.html">  SVG Files </a></li>
-
-                    <li id="thirt"><a href="week9/javascript1.html"> Week 9: Javascript 1</a> </li>
-
-                    <li id="fourt"><a href="week9/javascript2.html"> Javascript 2</a></li>
-
-                    <li id="fift"> <a href="week9/javascript3.html"> Javascript 3</a></li>
-                    
-                    <li id="sixt"><a href="week9/javascript4.html"> Javascript 4</a></li>
-
-                    <li id="sevent"> <a href="week9/javascript5.html"> Javascript 5</a></li>
-
-                    <li id="eighteen"> Week 13: Accessibility </li>
-
-                    <li id="ninet"> Week 14: SASS </li>
-
-                    <li id="twent"> Week 15: PHP </li>
-                </ul><!-- end of list -->
-            </nav>
-            <section id="life_quote">
-                <h2>
-                    Life quote
-                </h2>
-                <blockquote>
-                    You can’t undo what you’ve already done, but you can face up to it.
-                </blockquote>
-                <h4>Frank Coleridge, Silent Hill: Downpour</h4>
-                
-                
-                
-            </section>
-        </article>
-
-
-        <!--<img src="top_secret.png" alt="top secret" id = "top_secret">-->
-
-        <section id = "projects"> 
-            <h1><a href="portfolio"> Project 2 </a></h1>
-            <h1> <a href="portfolio/notes.html"> Notes to Prj2</a></h1>
-            <h1>Project 3</h1>
-        </section>
-
-    </main>
-</body>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background1s.jpg" alt="Unsplashed background img 1" id="first_parallax"></div>  
+  </div>
+  <div class="container" id="mis_box">
+    <div class="section">
+      <!--   Icon Section   -->    
+      <div class="row" id="mission_block">
+        <div class="col s12 m3 FlexCenter">
+          <img src="img/s_Dennis.jpg" alt="myFace" class="circle responsive-img left" id="face">
+        </div>
+        <div class="col s12 m9">           
+          <h2 class="center-align" id="mission">Mission</h2>       
+          <p class="left-align light" id="statement">My name is Dennis and I'm a junior Software Developer at the Rochester Institute of technology. I focus on game programming, but 
+            more specifically I enjoy working with gameplay mechanics, artificial intelligence and environments programming. I'm currenty looking for
+            an internship as a gameplay programmer or software engineer and I'm available by the end of fall 2017. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="cool_scroll">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center">
+          <h2 class="white-text ">What I specialize in</h2>        
+        </div>
+      </div>
+      <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/gameProg.jpg" alt="Game Programming"> <!-- random image -->
+        <div class="caption center-align ">
+          <h3 class="white-text slide_1">Gameplay Programming</h3>
+          <h5 class="white-text slide_1">Pathfinding, AI, Physics, Player Controls</h5>
+          <a href="projects.html#game_p" id="game_button" class="btn orange darken-4 white-text">Take me there</a>
+        </div>
+      </li>
+      <li>
+        <img src="img/multiplayer.jpg" alt="Multiplayer Programming"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Multiplayer</h3>
+          <h5 class="light grey-text text-lighten-3">Network scripting for server-side communication</h5>
+           <a href="projects.html#serv_p" id="net_button" class="btn orange darken-4 white-text">Take me there</a>
+        </div>
+      </li>
+      <li>
+        <img src="img/Tools.jpg" alt="Tools Programming"> <!-- random image -->
+        <div class="caption right-align">
+          <h3 class="white-text slide_1">Development Tools</h3>       
+          <h5 class="white-text slide_1">In-editor plugins to speed up game creation</h5>
+          <a href="projects.html#tool_p" id="tool_button" class="btn orange darken-4 white-text">Take me there</a>   
+        </div>
+      </li>
+      <li>
+        <img src="img/best_Droid_ever.jpg" alt="3D_Modeling"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>3D Modeling</h3>
+          <a href="projects.html#3d_mod" id="3d_button" class="btn orange darken-4  white-text">Take me there</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  </div>
+  </div>
+  <section class="section" id="cowboi">
+    <div class="container">
+      <h2 class="center-align">What I'm interested in</h2>
+      <div class="row center-align">
+        <div class="col s12 m4">
+          <img src="img/ai.png" alt="AI_Image" class="hoverable z-depth-3">
+        </div>
+        <div class="col s12 m4">
+          <img src="img/graphics.png" alt="Graphics_Image" class="hoverable z-depth-3">
+        </div>
+        <div class="col s12 m4">
+          <img src="img/proc.png" alt="Procedural Generation" class="hoverable z-depth-3">   
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">      
+      </div>
+    </div>
+    <div class="parallax"><img src="img/Town.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+  <footer class="page-footer orange darken-2 center">
+    <div class="container">
+      <div class="row">
+        <h1>Contact Me</h1>
+        <p id="lastW">I always look forward to new challenges and meeting developers.<br> Don't hesitate to contact me and checkout my portfolio</p>
+      </div>
+      <div class="row" id="options">
+        <div class="col s12 m12" id="links_">
+          <a href="projects.html" id="proj-button" class="btn-large pulse waves-effect orange darken-4 ">Projects</a><!--change the links later -->     
+          <a href="resume.html" id="resume-button" class="btn-large pulse waves-effect orange darken-4  ">Resume</a> 
+          <a href="contact.html" id="contact-button" class="btn-large pulse waves-effect orange darken-4  ">Contact</a>
+        </div> 
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by <b class="brown-text text-darken-2 ">Dennis Slavinsky</b> With the help of <b class="brown-text text-darken-2">
+        Materialize</b>
+      </div>
+    </div>
+  </footer>
+  <!--  Scripts--> 
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/smooth_scroll.js"></script>
+  <script src="js/slider_start.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  </body>
 </html>
