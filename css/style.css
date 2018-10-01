@@ -22,104 +22,38 @@ nav .brand-logo {
   background-color: black;
 }
 
-#logo-container {
-  margin-left: 15px;
+.slider .indicators .indicator-item {
+  background-color: white;
+  height: 15px;
+  width: 15px;
+
 }
 
-.indicator-item {
-  background-color: orange;
+.slider .indicators {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  margin: 0;
+  z-index: 4000;
 }
 
 #statement {
-  font-size: larger;
-  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 10px;
   font-size: 22px;
+  width: 1050px;
 }
 
-#mis_box {
-  padding-top: 28px;
-}
-
-body {
-  overflow-x: hidden;
-}
-
-p {
-  line-height: 2rem;
-}
-
-#acc_s {
-  padding-left: 200px;
-}
-
-.acc_s_icon {
-  padding-top: 10px;
-}
-
-#cowboi {
-  padding: 40px 0;
-  color: #fff;
+.slider .slides {
+  margin-top: 10px;
 }
 
 #cool_scroll {
+  margin: 0 auto;
+  padding-top: 30px;
   background-color: #d66204;
-}
-
-.button-collapse {
-  color: #26a69a;
-}
-
-#index-banner {
-  min-height: 600px;
-}
-
-#f-text {
-  border-radius: 35px;
-}
-
-.justifyText {
-  text-align: justify;
-}
-
-
-#mission {
-  margin-right: 325px;
-  margin-bottom: 25px;
-
-}
-
-#resume-button {
-  margin-left: 50px;
-  margin-right: 50px;
-
-}
-
-#options {
-  margin-bottom: 20px;
-}
-
-#logoTwit {
-  width: 35px;
-  height: 35px;
-  position: relative;
-  top: 12px;
-  margin-right: 5px;
-  margin-left: 15px;
-}
-
-#logoGit {
-  width: 35px;
-  height: 35px;
-  position: relative;
-  top: 12px;
-}
-
-.logo:hover {
-  background-color: black;
-}
-
-#first_words {
-  padding-top: 330px;
 }
 
 
@@ -130,29 +64,11 @@ p {
   color: rgba(255, 255, 255, .9);
 }
 
-.parallax-container .section {
-  width: 100%;
-}
-
-#lastW {
-  font-size: larger;
-}
-
-.slide_1 {
-  font-weight: bold;
-}
-
-.FlexCenter {
-  display: flex;
-  align-items: center;
-}
 
 @media only screen and (min-height: 700px) {
   #index-banner {
-    min-height: 750px;
+    min-height: 1000px;
   }
-
-
 }
 
 @media only screen and (min-width: 1200px) {
@@ -172,8 +88,8 @@ p {
     font-size: 18px;
   }
 
-  #first_words {
-    padding-top: 250px;
+  #statement {
+    width: 650px;
   }
 
   #logo-container {
@@ -222,6 +138,11 @@ p {
     min-height: 600px;
     height: auto;
     width: auto;
+  }
+
+  #statement {
+    font-size: 15px;
+    width: 400px;
   }
 
   .slider h3 {
@@ -289,7 +210,7 @@ p {
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 26px;
     white-space: nowrap;
   }
 
@@ -302,17 +223,38 @@ p {
     flex-direction: column;
     flex-shrink: 10;
   }
-
 }
 
-.icon-block {
-  padding: 0 15px;
+.fa-github:before {
+  position: relative;
+  bottom: 3px;
+  font-size: 30px;
 }
 
-.icon-block .material-icons {
-  font-size: inherit;
+#mission {
+  margin-top: 65px;
 }
 
-footer.page-footer {
-  margin: 0;
+#bottom-div {
+  margin: 0 auto;
+}
+
+#title {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  margin-top: 5px;
+}
+
+.btn-large.social-icon {
+  padding: 0 5px;
+}
+
+nav ul a.btn,
+nav ul a.btn-large,
+nav ul a.btn-large,
+nav ul a.btn-flat,
+nav ul a.btn-floating {
+  margin-top: -2px;
+  margin-left: 0px;
+  margin-right: 10px;
 }

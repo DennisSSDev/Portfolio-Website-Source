@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Dennis Slavinsky - Portfolio</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="css/materialize-social.css" type="text/css" rel="stylesheet" media="screen" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen" />
 </head>
 
@@ -15,61 +17,41 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="index.html" class="brand-logo white-text">Dennis Slavinsky</a>
       <ul class="right hide-on-med-and-down">
+        <li><a href="https://www.linkedin.com/in/dennis-slavinsky/" class="waves-effect waves-light social-icon btn-large linkedin">
+            <i class="fa fa-linkedin"></i></a></li>
+        <li><a href="http://www.github.com/DennisSSDev" class="waves-effect waves-light social-icon btn-large github">
+            <i class="fa fa-github" id="git-icon"></i></a></li>
         <li><a href="index.html" class="white-text">Home</a></li>
         <li><a href="projects.html" class="white-text">Projects</a></li>
         <li><a href="./resume/Dennis_Resume.pdf" class="white-text" target="_blank">Resume</a></li>
       </ul>
-      <a href="http://www.github.com/DennisSSDev" class="right"><img src="img/githubLogo.png" alt="logoGit" class="circle responsive-img logo"
-          id="logoGit"></a>
+
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+  <!-- Add github logo here -->
   <ul id="nav-mobile" class="side-nav right orange darken-4">
     <li><a href="index.html" class="white-text">Home</a></li>
     <li><a href="projects.html" class="white-text">Projects</a></li>
     <li><a href="./resume/Dennis_Resume.pdf" class="white-text" target="_blank">Resume</a></li>
   </ul>
   <!-- index test-->
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container" id="first_words">
-        <h1 class="center-align text-lighten-2 orange darken-3" id="f-text">Hi I make Video Games</h1>
-        <div class="center">
-          <a href="#mis_box" class="scroll">
-            <h4 class="white-text btn-large btn-floating pulse waves-effect orange darken-4"><i class="large material-icons">keyboard_arrow_down</i></h4>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="img/background1s.jpg" alt="Unsplashed background img 1" id="first_parallax"></div>
-  </div>
   <div class="section" id="mis_box">
     <div class="container">
-      <div class="row">
-        <div class="col s12 center">
-          <h2 class="white-text">Mission</h2>
-        </div>
-        <div>
-          <p id="statement">
-            My name is Dennis and I'm a Junior Software Engineer at RIT. I focus on gameplay, graphics and engine
-            tools.
-            I'm currently looking for a programming internship position and I'm available by spring 2018.
-          </p>
-        </div>
-      </div>
+      <h2 class="white-text center" id="mission">Mission</h2>
+      <p id="statement">
+        My name is Dennis and I'm a Junior Software Engineer at RIT. I focus on gameplay, graphics and engine
+        tools.
+        I'm currently looking for a programming internship position and I'm available by spring of 2018.
+      </p>
     </div>
   </div>
   <div class="section" id="cool_scroll">
     <div class="container">
-      <div class="row">
-        <div class="col s12 center">
-          <h2 class="white-text">What I specialize in</h2>
-        </div>
-      </div>
       <div class="slider">
         <ul class="slides">
           <li>
-            <img src="img/gameProg.jpg" alt="Game Programming"> <!-- random image -->
+            <img src="img/gameProg.jpg" alt="Game Programming">
             <div class="caption center-align ">
               <h3 class="white-text slide_1">Gameplay Programming</h3>
               <h5 class="white-text slide_1">Pathfinding, AI, Physics, Player Controls</h5>
@@ -98,16 +80,16 @@
   </div>
   <section class="section" id="cowboi">
     <div class="container">
-      <h2 class="center-align">What I'm interested in</h2>
+      <h2 class="center-align" id="title">What I'm interested in</h2>
       <div class="row center-align">
         <div class="col s12 m4">
-          <img src="img/ai.png" alt="AI_Image" class="hoverable z-depth-3">
+          <img src="img/ai.png" alt="AI_Image" class="hoverable z-depth-1">
         </div>
         <div class="col s12 m4">
-          <img src="img/graphics.png" alt="Graphics_Image" class="hoverable z-depth-3">
+          <img src="img/graphics.png" alt="Graphics_Image" class="hoverable z-depth-1">
         </div>
         <div class="col s12 m4">
-          <img src="img/proc.png" alt="Procedural Generation" class="hoverable z-depth-3">
+          <img src="img/proc.png" alt="Procedural Generation" class="hoverable z-depth-1">
         </div>
       </div>
     </div>

@@ -1,34 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
- html {
-   font-family: 'Nunito', serif;
-  }
+html {
+  font-family: 'Nunito', serif;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
-#nav_bar{
+
+#nav_bar {
   z-index: 5;
 }
-iframe{
+
+iframe {
   width: 800px;
   height: 500px;
   border: 0px;
 }
-#logo-container{
+
+#logo-container {
   margin-left: 15px;
 }
-.link{
+
+.link {
   font-weight: bold;
   -webkit-text-fill-color: #e65100;
 }
+
 p {
   line-height: 2rem;
 }
-#index-banner{
+
+#index-banner {
   min-height: 850px;
 }
-#logoTwit{
+
+#logoTwit {
   width: 35px;
   height: 35px;
   position: relative;
@@ -36,98 +44,140 @@ p {
   margin-right: 5px;
   margin-left: 15px;
 }
-#logoGit{
+
+#logoGit {
   width: 35px;
   height: 35px;
   position: relative;
   top: 12px;
 }
-.logo:hover{
+
+.logo:hover {
   background-color: black;
 }
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
+
 .parallax-container .section {
   width: 100%;
 }
-.modal_img{
+
+.modal_img {
   width: 50%;
   height: 50%;
 }
+
 @media only screen and (max-width : 992px) {
-  #nav-mobile li a{
+  #nav-mobile li a {
     text-align: center;
     padding-top: 1px;
     font-size: 18px;
   }
-  #logo-container{
+
+  #logo-container {
     font-size: 30px;
     padding-right: 15px;
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
   }
+
   .parallax-container .section {
     position: absolute;
     top: 40%;
   }
+
   #index-banner .section {
     top: 10%;
   }
-  #logoTwit{
+
+  #logoTwit {
     visibility: hidden;
   }
-  #logoGit{
+
+  #logoGit {
     visibility: hidden;
   }
 }
+
 @media only screen and (max-width : 600px) {
   #first_parallax {
     min-width: 200px;
     min-height: 500px;
-    height: auto; 
+    height: auto;
     width: auto;
   }
-  h2{
+
+  h2 {
     font-size: 35px;
   }
-  .row h1{
+
+  .row h1 {
     font-size: 50px;
   }
+
   #index-banner .section {
     top: 0;
   }
-  #resume-button{
+
+  #resume-button {
     margin: 0 auto;
   }
+
   #mis_box {
     text-align: center;
   }
-  #first_words{
+
+  #first_words {
     padding-top: 120px;
   }
-  #logo-container{
+
+  #logo-container {
     font-size: 20px;
     padding-right: 15px;
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
   }
-  #index-banner{
+
+  #index-banner {
     min-height: 500px;
   }
 }
+
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
 
 footer.page-footer {
   margin: 0;
+}
+
+.fa-github:before {
+  position: relative;
+  bottom: 3px;
+  font-size: 30px;
+}
+
+.btn-large.social-icon {
+  padding: 0 5px;
+}
+
+nav ul a.btn,
+nav ul a.btn-large,
+nav ul a.btn-large,
+nav ul a.btn-flat,
+nav ul a.btn-floating {
+  margin-top: -2px;
+  margin-left: 0px;
+  margin-right: 10px;
 }
