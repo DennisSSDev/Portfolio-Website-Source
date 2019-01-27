@@ -1,0 +1,196 @@
+{
+  "projects": {
+    "games": {
+      "0": {
+        "Name": "Foster's Reboot",
+        "Desc": "A game based on one of the episodes from the Foster's cartoon Universe. I developed the gameplay mechanics of Asteroids and it served as my way of learning vector maths and spawn AI",
+        "Contributions": [
+          "pvp local multiplayer",
+          "Classic Asteroids game mode",
+          "Colors, textures and game parameters customization tool"
+        ],
+        "Type": "Solo Project",
+        "Tools Used": ["Unity 2015", "C#", "Photoshop"],
+        "Links": {
+          "source": "https://github.com/DennisSSDev/Fosters_Imaginary_Friends_Reimagined",
+          "other": ""
+        },
+        "Images": [],
+        "Videos": []
+      },
+      "1": {
+        "Name": "Quantum Janitor",
+        "Desc": "A 3D Quantum Computer Puzzle/Adventure Game where the player explores the inner mechanics of Quantum Physics. I developed the AI of the Quants floating around as well as the combat/movement of the player. I utilized Behavior Trees for the AI, that allowed me to create cheap and fun AI. For the combat I developed the dash, jump and strike features of the player which caused Physical Simulations on impact for both the AI and player. Projectiles, collision avoidance and particle effects were also developed by me.",
+        "Contributions": [
+          "Puzzle",
+          "Combat",
+          "Adventure",
+          "Behavior Trees",
+          "Hundreds of Self-Driven Enemies"
+        ],
+        "Type": "Team of 5",
+        "Tools Used": ["Unreal Engine 4.20", "C++"],
+        "Links": {
+          "source": "",
+          "other": "https://jvthewanderer.itch.io/quantum-janitor"
+        },
+        "Images": [],
+        "Videos": ["https://youtu.be/BRv1Kggbm9o"]
+      },
+      "2": {
+        "Name": "Janus Helheim",
+        "Desc": "A third person action adventure game with a focus on hand to hand combat. It is a student lead project where we try to learn AAA practises. I'm the lead combat engineer and deveoped the player hand to hand combat as well as AI behaviors of the Wolves. I also co-manage the project and I'm responsible for the Audio and Gameplay teams. The project is currently in undergo and has been in development for the past 2 years.",
+        "Contributions": [
+          "Developed the CCC of the player",
+          "Integrated a system for adjusng AI parameters and behaviour on the fly",
+          "Created the auto - targeng and combo systems",
+          "Developed a responsive camera component for cinemac transions"
+        ],
+        "Type": "Team of 20",
+        "Tools Used": [
+          "Unreal Engine 4.21",
+          "C++",
+          "Perforce",
+          "BP",
+          "Google Drive",
+          "Discord",
+          "HacknPlan"
+        ],
+        "Links": {
+          "source": "",
+          "other": "https://janus-game.com"
+        },
+        "Images": [],
+        "Videos": ["https://www.youtube.com/channel/UCXi3epwQN1MHKI2Hoxf2shA"]
+      }
+    },
+    "tools": {
+      "0": {
+        "Name": "Sony Surface Augmented Reality Tool",
+        "Desc": "An experiemental surface augmented reality projection tool that reads user finger movement as input and AR marks that can be processed through media. I was responsible for creating an interactive tool for reading magic cards that would produce animation and interactivity between the other cards on a hard surface. I also optimized the experience via design patterns and third party libraries.",
+        "Contributions": [
+          "Developed performance testing suit",
+          "Optimized the application loop to a constant 60 fps from 20 fps",
+          "Developed the application event driven system, based on user hand and card detection (AR)",
+          "Utilized Create JS suite (ES6) together with C++ for low level optimiation"
+        ],
+        "Type": "Commercial team of 4",
+        "Tools Used": ["Sony Experimental Projector", "JS (ES6)", "C++"],
+        "Links": {
+          "source": "",
+          "other": "https://youtu.be/lQzTmGo1lrU"
+        },
+        "Images": [],
+        "Videos": []
+      },
+      "1": {
+        "Name": "Hearthstone 3D WebGL Engine",
+        "Desc": "A 3D WebGL + Three.js Engine for all adventurers to explore and loot. I developed the engine to simulate the pack opening in the original game. I also developed a custom tool with Maya that helped transform .obj objects to json files that were a lot easier to work with inside the engine.",
+        "Contributions": [
+          "WebGL Rendering",
+          "Ambient Occlusion + Lighting",
+          "ThreeJS integration",
+          "Runs on Javascript (ES5)"
+        ],
+        "Type": "Solo",
+        "Tools Used": ["ThreeJS", "WebGL", "Javascript", "Python", "Maya"],
+        "Links": {
+          "source": "https://github.com/DennisSSDev/DungeonChest",
+          "other": "https://people.rit.edu/dxs4043/igme230/finalproject/Project/"
+        },
+        "Images": [],
+        "Videos": []
+      },
+      "2": {
+        "Name": "Multiplayer Arena Server",
+        "Desc": "",
+        "Contributions": [],
+        "Type": "",
+        "Tools Used": [],
+        "Links": {
+          "source": "",
+          "other": ""
+        },
+        "Images": [],
+        "Videos": []
+      },
+      "3": {
+        "Name": "Landscape Procedural Tool",
+        "Desc": "",
+        "Contributions": [],
+        "Type": "",
+        "Tools Used": [],
+        "Links": {
+          "source": "",
+          "other": ""
+        },
+        "Images": [],
+        "Videos": []
+      },
+      "4": {
+        "Name": "Sketch - A GameDev tool for AAA opportunities",
+        "Desc": "",
+        "Contributions": [],
+        "Type": "",
+        "Tools Used": [],
+        "Links": {
+          "source": "",
+          "other": ""
+        },
+        "Images": [],
+        "Videos": []
+      }
+    },
+    "other": {
+      "0": {
+        "Name": "Infamous Second Son Audio Visualizer",
+        "Desc": "",
+        "Contributions": [],
+        "Type": "",
+        "Tools Used": [],
+        "Links": {
+          "source": "",
+          "other": ""
+        },
+        "Images": [],
+        "Videos": []
+      },
+      "1": {
+        "Desc": "Modular Level Design",
+        "Contributions": [],
+        "Type": "",
+        "Tools Used": [],
+        "Links": {
+          "source": "",
+          "other": ""
+        },
+        "Images": [],
+        "Videos": []
+      },
+      "2": {
+        "Desc": "3D Models",
+        "Contributions": [],
+        "Type": "",
+        "Tools Used": [],
+        "Links": {
+          "source": "",
+          "other": ""
+        },
+        "Images": [],
+        "Videos": []
+      },
+      "3": {
+        "Desc": "Boids AI Studies",
+        "Contributions": [],
+        "Type": "",
+        "Tools Used": [],
+        "Links": {
+          "source": "",
+          "other": ""
+        },
+        "Images": [],
+        "Videos": []
+      }
+    }
+  }
+}
